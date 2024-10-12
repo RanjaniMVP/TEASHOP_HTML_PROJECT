@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="En">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="tea">
+        <title>My Tea Shop</title>
+        <link rel="icon" href="/Images/tea.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="main.css" type="text/css">
+    </head>
+    <body>
+        <h1>Discover the art of tea, where tradition meets taste!!</h1>
+        <p>we've got the perfect tea for every moment...</p>
+        <header>
+            <!--Internal reference link (Link within the page )--> 
+                <nav aria-label="Primary Navigation">
+                    <ul>
+                        <li><a href="#about">About HerbTea</a></li>
+                        <li><a href="#menu">Our Menu</a></li>
+                        <li><a href="timings.html">Store Hours</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </nav>
+        <img src="Images/teapot.jpg" alt="HerbTea" align="centre" width="2000" height="800" loading="lazy">
+        </header>
+        <hr>
+        <section id="about">
+            <br>
+            <p>
+            <h2>About HerbTea</h2>
+            </p>
+            <p>At <strong>HerbTea</strong>, we believe in more than just serving tea. We’re about crafting moments of joy and relaxation. 
+                Our passion for tea drives us to bring you the <em>highest quality blends</em> sourced from the best gardens around the world.
+                <br>
+            </section>
+        
+        <section id="menu">
+            <hr>
+                <p>
+                    <h2>
+                        Our Tea Collection
+                    </h2>
+                </p>
+                <p>From aromatic black teas to soothing herbal blends, we source the finest ingredients to bring you rich fl
+                    avors and a delightful experience in every sip.</p>
+                <br>
+                <table>
+                    <caption>
+                        <th colspan="4">
+                            Our Teas
+                        </th>
+                    </caption>
+                    <tr>
+                        <th>Type</th>
+                        <th>Tea</th>
+                        <th>Qty</th>
+                        <th>Price</th>
+                    </tr>
+                   
+                    <tr>
+                        <th rowspan="2">Sweet</th>
+                        <td>Sweet Pepper</td>
+                        <td></time>100 g</td>
+                        <td>150 Rs</td>
+                    </tr>
+                    <tr>
+                        <td>Rose</td>
+                        <td></time>100 g</td>
+                        <td>150 Rs</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">Spicy</th>
+                        <td>Ginger</td>
+                        <td>100 g</td>
+                        <td>200 Rs</td>
+                    </tr>
+                    <tr>
+                        <td>Mixed Herbal</td>
+                        <td>100 g</td>
+                        <td>250 Rs</td>
+                    </tr>
+                    <td colspan="4">
+                        ***** Ice tea available ******
+                    </td>
+                </table>
+                <br>
+            </section>
+        <hr>
+        <section id="contact">
+            <h2>Contact Us</h2>
+        <p>Whether you're grabbing a cup to go or settling in for a peaceful break, we’re always happy to serve you. 
+            Drop by for a warm cup of tea and let us make your day a little brighter.</p>
+        <fieldset>
+            <legend>Write to us</legend>
+        <form action="https://httpbin.org/get" method="get"> 
+            <br><br>
+            <label for="firstName">FirstName:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="Enter your Firstname:" autocomplete="on" required>
+            <br><br>
+                <label for="lastName">LastName:</label> 
+                <input type="text" name="lastName" id="lastName" placeholder="Enter your Last name:" autocomplete="on" required>
+            <br><br>   
+                <label for="password">Password:</label> 
+                <input type="password" name="password" id="password" placeholder="Enter your Password:"  required>
+            <br><br>
+                <label for="phone">PhoneNo:</label> 
+                <input type="tel" name="phone" id="phone" placeholder="0999999999"  required pattern="[0-9]{2}-[0-9]{3}-[0-9]{5}">
+            <br><br>
+                <label for="fav">Your Fav:</label> 
+                <input type="text" name="fav" id="fav">
+            <br><br>
+            <button type="submit">Submit</button>
+            <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+            <button type="reset">Reset</button>
+                
+        
+        </form>
+        </fieldset>
+        </section>
+        <footer>
+            <p><a href="#">Back to Top</a></p>  
+            <p>Copyright &copy;FreshHerb Tea</p>  
+        </footer>
+    </body> 
+    </html>

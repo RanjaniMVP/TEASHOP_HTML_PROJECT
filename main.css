@@ -1,0 +1,70 @@
+body {
+    font-family: 'Helvetica', Arial, sans-serif;
+    background-color: #95fd87f7; /* Light yellow background */
+    margin: 0;
+    padding: 20px;
+    
+}
+
+/* Styling for the heading */
+h1 {
+    color: #941a04; /* Tomato red */
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    color: #1f15ee; 
+    text-align: center;
+    font-size: 40px;
+}
+/* Styling for the paragraph */
+p {
+    color: #06031b; /* Slate blue */
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+table {
+    width: 30%;
+    border-collapse: collapse; /* Merge borders */
+}
+th, td {
+    padding: 12px; /* Adds padding inside cells */
+    text-align: left; /* Aligns text to the left */
+    border: 2px solid #8b4513; /* Adds a border around cells */
+}
+
+img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px 0; /* Space around the image */
+}
+
+/* Navigation */
+nav {
+    display: flex; /* Use flexbox to align items */
+    justify-content: center; /* Center the navigation items */
+    background-color: #f9f9efd1; /* Light beige background */
+    padding: 15px;
+    border-radius: 5px; /* Rounded corners */
+    margin: 20px 0; /* Space above and below the nav */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Header */
+header {
+    background: #12ac10; /* A tea-inspired brown color */
+    color: #fff;
+    padding: 20px;
+}
